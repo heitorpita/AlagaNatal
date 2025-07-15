@@ -1,0 +1,11 @@
+body {
+    background-color: #433E3E;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    aspect-ratio: 1/1;
+}
