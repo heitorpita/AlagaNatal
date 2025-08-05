@@ -9,8 +9,11 @@
     />
     <meta name="author" content="Heitor Pita">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="login.css">
-    <title>Alaga Natal</title>  
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" type="image/png" sizes="16x16"  href="../../assets/favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <title>Alaga Natal - Cadastro</title>  
   </head>
   <body>
     <!--INICIO DO CABEÇALHO-->
@@ -23,14 +26,19 @@
     <!--FIM DO CABEÇALHO-->
     <main>
         <!--INICIO CARD DE LOGIN-->
-        <div class="card-login">
+        <div class="card-register">
             <form action="">
                 <label for="email"><i class="bi bi-envelope"></i>E-mail:</label>
                 <input type="email" name="email" id="email">
                 <label for="password"><i class="bi bi-shield-lock"></i>SENHA</label>
                 <input type="password" name="password" id="password">
-                <button type="submit" class="login-button">LOGIN</button>
+                <label for="password"><i class="bi bi-shield-lock"></i>CONFIRMAR SENHA</label>
+                <input type="password" name="password" id="password">
+                <button type="submit" class="register-button">cadastrar</button>
             </form>
+        </div>
+        <div>
+            <a href="../login/login.html">JA TEM UMA CONTA ? CLIQUE AQUI</a>
         </div>
         <!--FIM DO CARD DE LOGIN-->
     </main>
