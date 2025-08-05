@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Alaga Natal: informações, alertas e dicas sobre alagamentos em Natal. Fique por dentro, previna-se e contribua para uma cidade mais segura."
+    />
+    <meta name="author" content="Heitor Pita">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Alaga Natal</title>  
+  </head>
+  <body>
+    <!--INICIO DO CABEÇALHO-->
+    <header>
+        <div class="container">
+            <img class="logo" src="../../assets/img/logo.png" alt="logo em formato de A com onda azul ao meio">
+            <h1>alaga natal</h1>
+        </div>
+    </header>
+    <!--FIM DO CABEÇALHO-->
+    <main>
+        <!--INICIO CARD DE LOGIN-->
+        <div class="card-login">
+            <form action="">
+                <label for="email"><i class="bi bi-envelope"></i>E-mail:</label>
+                <input type="email" name="email" id="email">
+                <label for="password"><i class="bi bi-shield-lock"></i>SENHA</label>
+                <input type="password" name="password" id="password">
+                <button type="submit" class="login-button">LOGIN</button>
+            </form>
+        </div>
+        <!--FIM DO CARD DE LOGIN-->
+    </main>
+    <footer>
+        <!--INICIO FOOTER-->
+        <p>©️Todos os direitos reservados</p>
+        <!--FIM FOOTER-->
+    </footer>
+
+    <!--VLIBRAS-->
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+    <!--VLIBRAS-->
+  </body>
+</html>
